@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Robin Teen Titans Leader</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Teen Titans</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link active">Skills</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Abilities</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚔️</div>
+                    <h3>Combat Mastery</h3>
+                    <p>Expert in multiple martial arts including Aikido, Judo, and Karate. Proficient with various weapons and hand-to-hand combat.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Strategic Planning</h3>
+                    <p>Tactical genius trained by Batman. Excellent at analyzing situations and developing comprehensive battle strategies.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔍</div>
+                    <h3>Detective Skills</h3>
+                    <p>World-class detective abilities including forensic analysis, pattern recognition, and investigative techniques.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">👥</div>
+                    <h3>Leadership</h3>
+                    <p>Natural leader who inspires and coordinates team efforts. Skilled at bringing out the best in each team member.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Technology</h3>
+                    <p>Proficient with advanced technology, gadgets, and weapons. Maintains and upgrades team equipment.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🏃</div>
+                    <h3>Acrobatics</h3>
+                    <p>Exceptional agility and acrobatic skills. Capable of complex aerial maneuvers and parkour movements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Robin - Teen Titans Leader. Protecting Jump City and beyond.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
