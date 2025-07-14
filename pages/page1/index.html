@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Robin Teen Titans Leader</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Teen Titans</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>From Sidekick to Leader</h3>
+                <p>
+                    Trained by the legendary Batman, I've evolved from the Boy Wonder into 
+                    the strategic leader of the Teen Titans. My journey from the dark streets 
+                    of Gotham to the vibrant city of Jump City has shaped me into a hero 
+                    who bridges experience with innovation.
+                </p>
+                <p>
+                    As the leader of the Teen Titans, I combine Batman's tactical training 
+                    with my own leadership philosophy - one that values teamwork, trust, 
+                    and the unique strengths each member brings to our mission.
+                </p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>5+</h4>
+                        <p>Years Leading</p>
+                    </div>
+                    <div class="stat">
+                        <h4>100+</h4>
+                        <p>Missions Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h4>4</h4>
+                        <p>Team Members</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="./assets/img/Robin-2.jpg" alt="Robin - Teen Titans Leader" class="about-img">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Robin - Teen Titans Leader. Protecting Jump City and beyond.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
